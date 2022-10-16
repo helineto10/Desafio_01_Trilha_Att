@@ -1,0 +1,35 @@
+.inputTask {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-top: -26px;
+}
+
+.inputTask input {
+  background: var(--gray-500);
+  border: 1px solid var(--gray-700);
+  padding: 1rem 26.875rem 1rem 1rem;
+  border-radius: 8px;
+}
+
+.inputTask button {
+  background: #1e6f9f;
+  font-weight: bold;
+  border-radius: 8px;
+  border: none;
+  padding: 1rem;
+  color: var(--gray-100);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: .5rem;
+}
+
+.containerTasks {
+    
+}
+
+.info {
+
+}
