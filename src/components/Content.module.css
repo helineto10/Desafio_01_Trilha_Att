@@ -9,12 +9,13 @@
 .inputTask input {
   background: var(--gray-500);
   border: 1px solid var(--gray-700);
-  padding: 1rem 26.875rem 1rem 1rem;
+  width: 44.3%;
+  padding: 1rem;
   border-radius: 8px;
 }
 
 .inputTask button {
-  background: #1e6f9f;
+  background: var(--blue-dark);
   font-weight: bold;
   border-radius: 8px;
   border: none;
@@ -23,13 +24,67 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: .5rem;
+  gap: 0.5rem;
+  cursor: pointer;
 }
 
 .containerTasks {
-    
+  margin-top: 4rem;
+  margin-inline: 31rem;
 }
 
 .info {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 1.5rem;
+}
 
+.info p {
+  color: var(--purple);
+  font-weight: bold;
+}
+
+.info p:first-child {
+  color: var(--blue);
+}
+
+.info span {
+  background: var(--gray-400);
+  color: var(--gray-200);
+  margin-left: 0.5rem;
+  padding: 2px 8px;
+  border-radius: 99px;
+}
+
+.tasksList {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: .75rem;
+  margin-inline: 20rem;
+}
+
+.tasksContainer {
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: var(--gray-300);
+  font-weight: bold;
+  border-top: 1px solid var(--gray-400);
+  border-radius: 8px;
+  margin-inline: 30rem;
+}
+
+.tasksContainer svg {
+  color: var(--gray-400);
+  margin-top: 4rem;
+  margin-bottom: 1rem;
+}
+
+.tasksContainer span {
+  font-weight: normal;
 }
